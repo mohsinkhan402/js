@@ -25,3 +25,31 @@
 // }
 
 // console.log(typeof(myFunction))  output:function
+
+
+// ********************************************************* //
+
+// Stack and Heap memory
+
+// Stack (primitive)  & Heap (Non-Permitive)
+
+let myName = "Mohd Mohsin";
+let anotherName = myName;
+
+anotherName = "Rahat";
+// console.log(myName);
+// console.log(anotherName);
+
+let user1 = {
+    email : "mohsinsk402@gmail.com",
+    phone : "9718456260",
+}
+
+let user2 = user1;
+
+user2.email = "mohsin@zeblearnindia.com";
+
+console.log(user1);
+
+
+
